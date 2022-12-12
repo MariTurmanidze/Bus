@@ -1,0 +1,111 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-color: blue;
+}
+.bod{
+    position: relative;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+.carbg{
+width: 100%;
+height: 500px;
+background: linear-gradient(to right, rgba(0, 0, 0, 0.5) rgb(226, 115, 115), rgb(110, 110, 206), pink);
+}
+.car {
+    width: 370px;
+    height: 150px;
+    background: orange;
+    position: absolute;
+    margin-top: -230px;
+    left: 500px;
+    border-radius: 20px 100px 20px 10px;
+    animation: car 3s linear infinite;
+}
+
+.mirror{
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 30px;
+    right: 90px;
+    top: 35px;
+    right: 60px;
+}
+.show{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+.tire{
+    width: 60px;
+    height: 60px;
+    border: 20px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 55px;
+    left: -200px;
+    animation: rotate 3s linear infinite;
+}
+.tire2{
+    content: "";
+    width: 60px;
+    height: 60px;
+    border: 20px solid black;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -15px;
+    left: 160px;
+    animation: rotate 3s linear infinite;
+
+}
+
+.road{
+    width: 2000%;
+    height: 20px;
+    background: brown;
+    position: relative;
+    margin-top: 400px;
+    l
+
+}
+ @keyframes identifier {
+    0%{
+        transform: rotate: (10deg);
+
+    }
+    100%{
+        transform: rotate(370px);
+    }
+ }
+ @keyframes car{
+    0%{
+        transform:translate(-20px);
+    }
+    100%{
+        transform:translate(370px);
+    }
+ }
+    
+
+
+    
+        
+
+
+
+
+    
